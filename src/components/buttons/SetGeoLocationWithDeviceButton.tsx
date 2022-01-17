@@ -5,7 +5,7 @@ import { useSelectedCityContext } from "contexts";
 const SetGeoLocationWithDeviceButton = () => {
   const { setSelectedCity } = useSelectedCityContext();
 
-  function getLocation() {
+  const getLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((pos: GeolocationPosition) => {
         setSelectedCity({
@@ -19,7 +19,7 @@ const SetGeoLocationWithDeviceButton = () => {
     } else {
       console.log("Geolocation is not supported by this browser.");
     }
-  }
+  };
 
   return (
     <Button
