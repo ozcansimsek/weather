@@ -1,3 +1,16 @@
+App demo here -> https://weath-r.netlify.app/
+
+Weather Forecast application developed using OpenWeatherMap API
+
+# JS Stack
+- React.js
+- React hooks and contexts
+- Typescript
+- Material UI
+- use-http
+- cities.json
+- dayjs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
