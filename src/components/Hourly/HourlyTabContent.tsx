@@ -48,10 +48,9 @@ const HourlyTabContent = ({
           </IconAndName>
 
           <Typography variant="body2">
-            {allWeatherData?.current.weather[0].description
-              .charAt(0)
+            {data.weather[0].description.charAt(0)
               .toUpperCase()}
-            {allWeatherData?.current.weather[0].description.slice(1)}
+            {data.weather[0].description.slice(1)}
           </Typography>
         </Item>
       </Grid>
